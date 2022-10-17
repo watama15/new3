@@ -31,10 +31,10 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['sfull']
 handler.tags = ['sticker']
-handler.command = /^sfull$/i
+handler.command = /^sprem$/i
 
-handler.group = true
-handler.limit = true
+
+handler.premium = true
 
 export default handler
 
