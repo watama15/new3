@@ -19,5 +19,7 @@ handler.help = ['gimage <query>', 'image <query>']
 handler.tags = ['internet', 'tools']
 handler.command = /^(gimage|image)$/i
 
+handler.private = true
+
 export default handler
 
