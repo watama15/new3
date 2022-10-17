@@ -78,7 +78,7 @@ await conn.sendMessage(m.chat, listMessage)
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
 
-handler.help = ['sewa', 'premium']
+handler.help = ['sewa', 'buyprem']
 handler.tags = ['main']
 handler.command = /^(sewa(bot)?|premium)$/i
 
