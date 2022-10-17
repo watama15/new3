@@ -34,7 +34,7 @@ handler.tags = ['sticker']
 handler.command = /^sprem$/i
 
 
-handler.premium = true
+
 
 export default handler
 
