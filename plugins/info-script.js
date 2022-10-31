@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*Mau Nyumri SCeh Yang Bang? :v*
+let str = `*Mau Nyumri SCeh Ya Bang? :v*
 
 Nih ada santai bro....
 https://koncit.github.io/index
