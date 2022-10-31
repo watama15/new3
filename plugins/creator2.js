@@ -27,6 +27,7 @@ if (command == 'whmods3') {
   await conn.reply(m.chat, `Halo kak @${m.sender.split(`@`)[0]} itu nomor team developerku, jangan di apa-apain ya kak😖`, sentMsg, {mentions: [m.sender]})
  //knp di enc? , biar kgk di rename deksripsi Developer nya, kalau untuk nomor nya bakal otomatis berubah pas kalian ubah di config.js
 }
+}
 handler.help = ['whmods1', 'whmods2', 'whmods3']
 handler.tags = ['info']
 
